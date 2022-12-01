@@ -1,0 +1,185 @@
+---
+openapi: 3.0.0
+info:
+  title: Website API
+  description: This API receives user events from a website
+  contact:
+    email: gibbons.peter312@gmail.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+servers:
+- url: /
+  description: SwaggerHub API Auto Mocking
+tags:
+- name: User&Scores
+  description: uploads users and scores to the system
+paths:
+  /website/blog:
+    post:
+      tags:
+      - blog
+      summary: post users blog
+      description: Adds the user blog to the website
+      operationId: app.addBlog
+      requestBody:
+        description: blog posted to website
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Blog'
+      responses:
+        "201":
+          description: blog post created
+        "400":
+          description: invalid input, object invalid
+        "409":
+          description: same blog post already exists
+    get:
+      tags:
+        - blogs
+      summary: gets new blogs
+      operationId: app.get_blogs
+      description: gets blogs added after a timestamp
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: 2022-10-27T18:01:36.112Z
+      responses:
+        '200':
+          description: Sucessfully returned a list of blogs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Blog'
+  /website/user:
+    post:
+      tags:
+      - user
+      summary: Creates a user
+      description: Adds a new user to the system
+      operationId: app.addUser
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        "201":
+          description: user created
+        "400":
+          description: invalid input, object invalid
+    get:
+      tags:
+        - users
+      summary: gets new users
+      operationId: app.get_users
+      description: gets users added after a timestamp
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: 2022-10-27T18:01:36.112Z
+      responses:
+        '200':
+          description: Sucessfully returned a list of users
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+    
+components:
+  schemas:
+    Blog:
+      required:
+      - blogBody
+      - date
+      - blog_id
+      - postNumbers
+      - snippet
+      - title
+      - userName
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 321
+        userName:
+          type: string
+          example: pg312
+        email:
+          type: string
+          example: peter@gmail.com
+        title:
+          type: string
+          example: Hello World!
+        snippet:
+          type: string
+          example: first blog post!
+        blogBody:
+          type: string
+          example: blog body goes here
+        date:
+          type: string
+          format: date-time
+          example: 2016-08-29T09:12:33.001Z
+        postNumbers:
+          type: integer
+          example: 10
+    User:
+      required:
+      - age
+      - email
+      - friends
+      - name
+      - password
+      - phoneNumber
+      - timeStamp
+      - user_id
+      type: object
+      properties:
+        user_id:
+          type: integer
+          example: 999
+        name:
+          type: string
+          example: Peter
+        email:
+          type: string
+          example: gibbons.peter312@gmail.com
+        password:
+          type: string
+          example: password
+        age:
+          type: string
+          example: "23"
+        friends:
+          type: integer
+        phoneNumber:
+          type: integer
+          example: 6042122211
+        timeStamp:
+          type: string
+          format: date-time
+          example: 2016-08-29T09:12:33.001Z

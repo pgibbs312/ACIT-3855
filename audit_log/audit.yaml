@@ -1,0 +1,155 @@
+---
+openapi: 3.0.0
+info:
+  description: API provides audit information
+  version: "1.0.0"
+  title: Audit API
+  contact: 
+    email: pgibbons312@gmail.com
+
+paths:
+  /website/blog:
+    get:
+      summary: Gets blog posts from history
+      operationId: app.get_blogs
+      description: Gets blog posts from the event store
+      parameters:
+        - name: index
+          in: query
+          description: Gets the blog at the index in the event store
+          schema: 
+            type: integer
+            example: 100
+      responses:
+        '200':
+          description: Successfully returned a blog event
+          content:
+            application/json:
+              schema: 
+                type: object
+                items:
+                  $ref: '#/components/schemas/Blog'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /website/user:
+    get:
+      summary: gets user readings from history
+      operationId: app.get_user
+      description: Gets user readings from the event store
+      parameters:
+        - name: index
+          in: query
+          description: Gets users at the index in the event store
+          schema:
+            type: integer
+            example: 100
+      responses:
+        '200':
+          description: Successfully returned user event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/User'
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '404':
+          description: Not Found
+components:
+  schemas:
+    Blog:
+      required:
+      - blogBody
+      - date
+      - blog_id
+      - postNumbers
+      - snippet
+      - title
+      - userName
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 321
+        userName:
+          type: string
+          example: pg312
+        email:
+          type: string
+          example: peter@gmail.com
+        title:
+          type: string
+          example: Hello World!
+        snippet:
+          type: string
+          example: first blog post!
+        blogBody:
+          type: string
+          example: blog body goes here
+        date:
+          type: string
+          format: date-time
+          example: 2016-08-29T09:12:33.001Z
+        postNumbers:
+          type: integer
+          example: 10
+    User:
+      required:
+      - age
+      - email
+      - friends
+      - name
+      - password
+      - phoneNumber
+      - timeStamp
+      - user_id
+      type: object
+      properties:
+        user_id:
+          type: integer
+          example: 999
+        name:
+          type: string
+          example: Peter
+        email:
+          type: string
+          example: gibbons.peter312@gmail.com
+        password:
+          type: string
+          example: password
+        age:
+          type: string
+          example: "23"
+        friends:
+          type: integer
+        phoneNumber:
+          type: integer
+          example: 6042122211
+        timeStamp:
+          type: string
+          format: date-time
+          example: 2016-08-29T09:12:33.001Z

@@ -1,0 +1,62 @@
+---
+openapi: 3.0.0
+info:
+  description: This API provides event tats
+  version: 1.0.0
+  title: Stats API
+  contact:
+    email: gibbons.peter312@gmail.com
+paths:
+  /website/stats:
+    get:
+      summary: Gets the website stats
+      operationId: app.get_stats
+      description: gets the website stats for user, and website health
+      responses:
+        "200":
+          description: sucessfully returned a list of website events
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: '#/components/schemas/websiteStats'
+        "400":
+          description: invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    websiteStats:
+      required:
+      - num_users
+      - number_posts
+      - average_posts
+      - most_posts
+      - least_posts
+      # - average_friends
+      properties:
+        num_users:
+          type: integer
+          example: 5000
+        number_posts:
+          type: integer
+          example: 500
+        average_posts:
+          type: integer
+          example: 25
+        most_posts:
+          type: integer
+          example: 45
+        least_posts:
+          type: integer
+          example: 1
+        # average_friends:
+        #   type: integer
+        #   example: 250
+      type: object

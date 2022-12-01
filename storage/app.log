@@ -1,0 +1,95 @@
+2022-10-29 15:31:58,349 - basicLogger - INFO - Stored event addBlog request received with a trace id of a403e101-cbc5-42b2-912f-6cc23e66d4c0
+2022-10-29 15:36:40,587 - basicLogger - INFO - Stored event addBlog request received with a trace id of d5b7e81c-3bf6-4b94-b184-e0639dcfe412
+2022-10-29 15:40:54,312 - basicLogger - INFO - Stored event addBlog request received with a trace id of b98fcad8-0849-4cbe-950b-028b7794ddf3
+2022-10-29 15:46:24,159 - basicLogger - INFO - Stored event addBlog request received with a trace id of bc6086cb-3f5d-4eea-9700-c10586755723
+2022-10-29 17:16:06,824 - basicLogger - INFO - Stored event addBlog request received with a trace id of 78772986-2117-4afe-ae1e-ebfd6f9339dd
+2022-10-29 17:33:59,907 - basicLogger - INFO - Stored event addBlog request received with a trace id of 17752fa0-28fc-4d82-bd79-4b3e17a1ec13
+2022-10-29 17:34:48,089 - basicLogger - INFO - Stored event addBlog request received with a trace id of 606e0152-68ad-411c-a4f5-83a3acb498f2
+2022-10-29 17:41:06,170 - basicLogger - INFO - Stored event addBlog request received with a trace id of 451252b9-307f-4f14-8eb2-d32014b52c66
+2022-10-29 17:41:48,922 - basicLogger - INFO - Stored event addBlog request received with a trace id of 97e6a6e7-e584-415f-9b5f-f0d37cd97517
+2022-10-29 17:48:19,714 - basicLogger - INFO - Stored event addBlog request received with a trace id of 8f405674-8c4c-4c84-956b-2a239c32dad0
+2022-10-29 17:52:25,722 - basicLogger - INFO - Stored event addBlog request received with a trace id of dfb7d7bd-ac28-4295-a71e-7c337516da81
+2022-10-29 17:52:25,733 - basicLogger - DEBUG - Stored Event: addBlog id dfb7d7bd-ac28-4295-a71e-7c337516da81 with a status code 201
+2022-10-29 17:56:39,539 - basicLogger - INFO - Stored event addBlog request received with a trace id of 5129fb05-7be4-44a6-8016-e6234b45e35e
+2022-10-29 17:56:39,541 - basicLogger - DEBUG - Stored Event: addBlog id 5129fb05-7be4-44a6-8016-e6234b45e35e with a status code 201
+2022-10-29 17:57:01,719 - basicLogger - INFO - Stored event addBlog request received with a trace id of d83042e2-923a-4b66-bb00-9ea7916a82a4
+2022-10-29 17:57:01,722 - basicLogger - DEBUG - Stored Event: addBlog id d83042e2-923a-4b66-bb00-9ea7916a82a4 with a status code 201
+2022-10-29 17:57:13,362 - basicLogger - INFO - Stored event addBlog request received with a trace id of 3f890cc1-818f-4ecf-9eff-f35439cae812
+2022-10-29 17:57:13,364 - basicLogger - DEBUG - Stored Event: addBlog id 3f890cc1-818f-4ecf-9eff-f35439cae812 with a status code 201
+2022-10-29 17:57:23,879 - basicLogger - INFO - Stored event addBlog request received with a trace id of 90824771-b106-47d8-9df9-40600c4987c2
+2022-10-29 17:57:23,881 - basicLogger - DEBUG - Stored Event: addBlog id 90824771-b106-47d8-9df9-40600c4987c2 with a status code 201
+2022-10-29 17:57:35,019 - basicLogger - INFO - Stored event addBlog request received with a trace id of 5e88906a-1ccb-4d12-bbd6-23dccb932d0f
+2022-10-29 17:57:35,022 - basicLogger - DEBUG - Stored Event: addBlog id 5e88906a-1ccb-4d12-bbd6-23dccb932d0f with a status code 201
+2022-10-29 17:57:49,825 - basicLogger - INFO - Stored event addBlog request received with a trace id of 7840930c-b0af-4c08-a3cc-11fc8ca925ae
+2022-10-29 17:57:49,827 - basicLogger - DEBUG - Stored Event: addBlog id 7840930c-b0af-4c08-a3cc-11fc8ca925ae with a status code 201
+2022-10-29 18:32:38,871 - basicLogger - INFO - Stored event addBlog request received with a trace id of 2438fdbc-2e03-40a2-91fa-711303cf4e39
+2022-10-29 18:32:38,881 - basicLogger - DEBUG - Stored Event: addBlog id 2438fdbc-2e03-40a2-91fa-711303cf4e39 with a status code 201
+2022-10-29 18:32:53,212 - basicLogger - INFO - Stored event addBlog request received with a trace id of 9bc906cb-a7a5-4623-96ff-5deb331fc8ee
+2022-10-29 18:32:53,215 - basicLogger - DEBUG - Stored Event: addBlog id 9bc906cb-a7a5-4623-96ff-5deb331fc8ee with a status code 201
+2022-11-02 14:11:56,471 - basicLogger - INFO - Query for Game Score scores after 2022-11-27T18:01:36.112Z returns 0 results
+2022-11-02 14:14:18,915 - basicLogger - INFO - Query for Game Score scores after 2022-11-27T18:01:36.112Z returns 0 results
+2022-11-02 14:15:54,018 - basicLogger - INFO - Query for Game Score scores after 2022-11-27T18:01:36.112Z returns 0 results
+2022-11-02 14:16:34,578 - basicLogger - INFO - Query for Game Score scores after 2022-11-27T18:01:36.112Z returns 0 results
+2022-11-02 16:56:06,634 - basicLogger - INFO - Query for Game Score scores after 2022-11-27T18:01:36.112Z returns 0 results
+2022-11-02 16:58:20,703 - basicLogger - INFO - Stored event addBlog request received with a trace id of 0aa95c2e-8fa0-49af-925f-b96d3254a365
+2022-11-02 16:58:20,738 - basicLogger - DEBUG - Stored Event: addBlog id 0aa95c2e-8fa0-49af-925f-b96d3254a365 with a status code 201
+2022-11-02 16:58:35,898 - basicLogger - INFO - Stored event addBlog request received with a trace id of 629d9a0b-ac70-4242-9a0c-adc0ad6f8511
+2022-11-02 16:58:35,900 - basicLogger - DEBUG - Stored Event: addBlog id 629d9a0b-ac70-4242-9a0c-adc0ad6f8511 with a status code 201
+2022-11-02 16:58:36,937 - basicLogger - INFO - Stored event addBlog request received with a trace id of c21d41c7-4ea0-4857-9687-17c3a2452c4c
+2022-11-02 16:58:36,940 - basicLogger - DEBUG - Stored Event: addBlog id c21d41c7-4ea0-4857-9687-17c3a2452c4c with a status code 201
+2022-11-02 17:01:05,053 - basicLogger - INFO - Query for Game Score scores after 2022-11-27T18:01:36.112Z returns 0 results
+2022-11-03 15:49:12,121 - basicLogger - INFO - Query for Game Score scores after 2022-10-27T18:01:36.112Z returns 18 results
+2022-11-03 15:50:00,436 - basicLogger - INFO - Query for Game Score scores after 2022-10-27T18:01:36.112Z returns 18 results
+2022-11-03 16:08:17,307 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-03 16:08:17,320 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-03 16:11:34,914 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-03 16:11:34,927 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-03 16:21:06,829 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-03 16:21:06,845 - basicLogger - INFO - Query for website users added after 2022-10-27T18:01:36.112Z returns 6 results
+2022-11-03 16:52:30,030 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-03 16:52:30,047 - basicLogger - INFO - Query for website users added after 2022-10-27T18:01:36.112Z returns 6 results
+2022-11-03 16:54:34,086 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-03 16:54:34,102 - basicLogger - INFO - Query for website users added after 2022-10-27T18:01:36.112Z returns 6 results
+2022-11-03 16:58:22,880 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-03 16:58:22,897 - basicLogger - INFO - Query for website users added after 2022-10-27T18:01:36.112Z returns 6 results
+2022-11-08 13:10:03,644 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-08 13:10:03,657 - basicLogger - INFO - Query for website users added after 2022-10-27T18:01:36.112Z returns 6 results
+2022-11-08 13:14:10,695 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-08 13:14:10,706 - basicLogger - INFO - Query for website users added after 2022-10-27T18:01:36.112Z returns 6 results
+2022-11-08 13:24:47,881 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-08 13:24:47,891 - basicLogger - INFO - Query for website users added after 2022-10-27T18:01:36.112Z returns 6 results
+2022-11-08 13:29:27,992 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-08 13:29:28,002 - basicLogger - INFO - Query for website users added after 2022-10-27T18:01:36.112Z returns 6 results
+2022-11-08 13:40:19,670 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-08 13:40:19,680 - basicLogger - INFO - Query for website users added after 2022-10-27T18:01:36.112Z returns 6 results
+2022-11-09 12:01:44,090 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-09 12:01:44,100 - basicLogger - INFO - Query for website users added after 2022-10-27T18:01:36.112Z returns 6 results
+2022-11-09 12:09:36,438 - basicLogger - INFO - Stored event: addUser request received with a trace id: e01faa8a-f791-494d-88f6-346a13e7f394
+2022-11-09 12:09:36,452 - basicLogger - DEBUG - Stored event: addUser with trace id: e01faa8a-f791-494d-88f6-346a13e7f394
+2022-11-09 12:09:44,177 - basicLogger - INFO - Stored event: addUser request received with a trace id: 3735e086-c76d-4667-add7-7c690617f4c5
+2022-11-09 12:09:44,179 - basicLogger - DEBUG - Stored event: addUser with trace id: 3735e086-c76d-4667-add7-7c690617f4c5
+2022-11-09 12:11:06,317 - basicLogger - INFO - Stored event: addUser request received with a trace id: e3198301-2a1f-44cb-b828-f19bf17abfc7
+2022-11-09 12:11:06,331 - basicLogger - DEBUG - Stored event: addUser with trace id: e3198301-2a1f-44cb-b828-f19bf17abfc7
+2022-11-09 12:11:08,320 - basicLogger - INFO - Stored event: addUser request received with a trace id: f341397c-2583-4add-9808-280368992218
+2022-11-09 12:11:08,322 - basicLogger - DEBUG - Stored event: addUser with trace id: f341397c-2583-4add-9808-280368992218
+2022-11-09 12:17:25,486 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-09 12:17:25,496 - basicLogger - INFO - Query for website users added after 2022-10-27T18:01:36.112Z returns 10 results
+2022-11-09 12:28:48,689 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-09 12:28:48,699 - basicLogger - INFO - Query for website users added after 2022-10-27T18:01:36.112Z returns 10 results
+2022-11-09 12:36:14,402 - basicLogger - INFO - Query for website blogs added after 2022-10-27T18:01:36.112Z returns 12 results
+2022-11-09 12:36:14,413 - basicLogger - INFO - Query for website users added after 2022-10-27T18:01:36.112Z returns 10 results
+2022-11-11 15:58:39,222 - basicLogger - INFO - Query for website blogs added after 2022-11-27T18:01:36.112Z returns 0 results
+2022-11-11 16:01:43,661 - basicLogger - INFO - Query for website blogs added after 2022-11-27T18:01:36.112Z returns 0 results
+2022-11-11 16:03:04,754 - basicLogger - INFO - Query for website blogs added after 2021-11-27T18:01:36.112Z returns 12 results
+2022-11-11 16:08:11,004 - basicLogger - INFO - Query for website blogs added after 2021-11-27T18:01:36.112Z returns 12 results
+2022-11-23 12:57:21,130 - basicLogger - INFO - Stored event: addUser request received with a trace id: 7b6f1732-c4cd-4cc6-ac08-51a833815896
+2022-11-23 12:57:21,434 - basicLogger - DEBUG - Stored event: addUser with trace id: 7b6f1732-c4cd-4cc6-ac08-51a833815896
+2022-11-23 12:57:38,236 - basicLogger - INFO - Stored event addBlog request received with a trace id of adb551c9-1155-4f3c-8d16-925225318e42
+2022-11-23 12:57:38,236 - basicLogger - INFO - Connecting to DB. Hostname: ec2-52-27-199-232.us-west-2.compute.amazonaws.com, Port: 3306
+2022-11-23 12:57:38,300 - basicLogger - DEBUG - Stored Event: addBlog id adb551c9-1155-4f3c-8d16-925225318e42 with a status code 201
+2022-12-01 12:39:14,484 - basicLogger - INFO - logging started
+2022-12-01 12:42:11,817 - basicLogger - INFO - Message: {'type': 'addBlog', 'datetime': '2022-12-01T12:42:11', 'payload': {'blog_id': 44, 'blogBody': 'blog body goes here', 'postNumbers': 25, 'date': '2022-12-27T18:01:36.112Z', 'snippet': 'first blog post!', 'title': 'Hello World!', 'userName': 'pg69', 'trans_id': 'b35acaa5-6ac9-4d34-aa2b-0f8ad7cf03a8'}}
+2022-12-01 12:42:11,818 - basicLogger - INFO - Stored event addBlog request received with a trace id of b35acaa5-6ac9-4d34-aa2b-0f8ad7cf03a8
+2022-12-01 12:42:11,819 - basicLogger - INFO - Connecting to DB. Hostname: ec2-52-27-199-232.us-west-2.compute.amazonaws.com, Port: 3306
+2022-12-01 12:42:12,217 - basicLogger - DEBUG - Stored Event: addBlog id b35acaa5-6ac9-4d34-aa2b-0f8ad7cf03a8 with a status code 201
+2022-12-01 12:42:12,217 - basicLogger - INFO - payload stored. msg type: addBlog, trace id: b35acaa5-6ac9-4d34-aa2b-0f8ad7cf03a8

@@ -1,0 +1,11 @@
+version: 1
+datastore:
+  user: root
+  password: Pg000001
+  hostname: ec2-52-27-199-232.us-west-2.compute.amazonaws.com
+  port: 3306
+  db: website
+events:
+  hostname: ec2-52-27-199-232.us-west-2.compute.amazonaws.com
+  port: 9092
+  topic: events

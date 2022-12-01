@@ -1,0 +1,9 @@
+version: 1.0.0
+eventstore_1:
+  url: http://localhost:8090/website/blog
+eventstore_2:
+  url: http://localhost:8090/website/user
+events:
+  hostname: ec2-52-27-199-232.us-west-2.compute.amazonaws.com
+  port: 9092
+  topic: events
